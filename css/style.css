@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+/**
+ * https://simpleicons.org/
+*/
+
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -55,3 +60,9 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+/*#team .card .card-action a img*/
+/*.link-text img{
+    width: 25px;
+    height: 25px;
+}*/
