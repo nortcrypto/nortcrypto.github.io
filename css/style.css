@@ -61,8 +61,7 @@ footer.page-footer {
   margin: 0;
 }
 
-/*#team .card .card-action a img*/
-/*.link-text img{
-    width: 25px;
-    height: 25px;
-}*/
+.carousel.carousel-slider .carousel-item {
+    height: auto !important;
+    min-height: auto !important;
+}
