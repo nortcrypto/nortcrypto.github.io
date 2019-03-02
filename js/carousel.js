@@ -1,11 +1,8 @@
-var instance = M.Carousel.init({
-    fullWidth: true,
-    indicators: true
+$('.carousel').carousel({
+    padding: 200
 });
-
-  // Or with jQuery
-
-$('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
-});
+autoplay();
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
