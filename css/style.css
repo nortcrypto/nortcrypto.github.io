@@ -79,3 +79,51 @@ footer.page-footer {
 .card .card-content {
   padding: 0px 15px 15px 15px !important;
 }
+
+/* social icons */
+
+#social {
+  background-color: #f2f0ef;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom:80px;
+}
+
+
+#social li{
+  display: inline;
+  list-style-type: none;
+}
+
+#social ul{
+  text-align:center;
+}
+
+
+#social_icons li a:hover {
+  background-color: transparent !important;
+}
+
+#social_icons li a {
+  padding: 0 6px;
+}
+
+#social_icons i {
+  font-size: 4em;
+  color: #4ec289;
+}
+
+#social_icons li:hover i, #social_icons i:hover {
+  color: #003046;
+}
+
+@media(max-width:768px) {
+  #social li{
+    width: 25%;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  #social li:last-child{
+    margin-bottom: 0px;
+  }
+}
