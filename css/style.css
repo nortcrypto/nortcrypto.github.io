@@ -70,4 +70,12 @@ footer.page-footer {
     min-height: auto !important;
 }
 
+.card .card-image {
+  max-width: 150px;
+  margin: 0px auto;
+  padding: 15px;
+}
 
+.card .card-content {
+  padding: 0px 15px 15px 15px !important;
+}
