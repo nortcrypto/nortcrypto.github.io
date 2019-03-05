@@ -20,6 +20,10 @@ p {
   line-height: 2rem;
 }
 
+tr {
+  border: none !important;
+}
+
 .sidenav-trigger {
   color: #26a69a;
 }
@@ -65,3 +69,5 @@ footer.page-footer {
     height: auto !important;
     min-height: auto !important;
 }
+
+
