@@ -5,6 +5,10 @@
 
   // Or with jQuery
 
- $(document).ready(function(){
+$(document).ready(function(){
     $('.scrollspy').scrollSpy();
 });
+
+//$(document).ready(function(id) {
+//    return 'a[href="#' + id + '"]';
+//});
