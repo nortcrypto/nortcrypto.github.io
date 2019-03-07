@@ -135,3 +135,33 @@ footer.page-footer {
     margin-bottom: 0px;
   }
 }
+
+.tabs .indicator {
+  display: none !important;
+/*    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: #f6b2b5;
+    will-change: left, right;*/
+}
+
+.tabs .tab a {
+  color: #003046 !important;
+}
+
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background-color: #4ec289 !important;
+/*  outline: none;*/
+}
+
+.tabs .tab a.active {
+  background-color: #4ec289 !important;
+  color: white !important;
+}
+
+.tabs .tab a:hover{
+  background-color: #003046 !important;
+  color: white !important;
+}
