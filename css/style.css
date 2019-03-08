@@ -175,3 +175,30 @@ footer.page-footer {
 .teal.dark-nort {
   background-color: #003046 !important;
 }
+
+/* Меню навигации */
+
+nav ul a:hover {
+  background-color: #003046 !important;
+  color: white !important;
+}
+
+a.active {
+  background-color: #4ec289;
+  color: white !important;
+}
+
+/*#walets {
+  background-color: red;
+  height: 10px;
+}
+
+#spec {
+  background-color: yellow; 
+  height: 10px;
+}
+
+#developers {
+  background-color: blue;
+  height: 10px;
+}*/

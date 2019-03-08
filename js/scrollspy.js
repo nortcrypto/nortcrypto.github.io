@@ -5,10 +5,42 @@
 
   // Or with jQuery
 
+//$(document).ready(function(){
+//    $('.scrollspy').scrollSpy();
+//});
+
+//$(document).ready(function(){
+//  $('#content').pushpin({
+//    top: $('#content').offset().top
+//  });
+//  $('.scrollspy').scrollSpy({
+//    scrollOfffset: 0
+//  });
+//});
+
+//$(document).ready(function(){
+//  $('.scrollspy').scrollSpy();
+//  $('.scrollspy').on('scrollSpy:enter', function() {
+//    $('.navbar-fixed').find('a[href="#'+$(this).attr('id')+'"]').parent().addClass('active');
+//  });
+//  $('scrollspy').on('scrollSpy:exit', function(){
+//    $('.navbar-fixed').find('a[href="#'+$(this).attr('id')+'"]').parent().removeClass('active');
+//  });
+//});
+
+
 $(document).ready(function(){
-    $('.scrollspy').scrollSpy();
+  $('#menu_projets').pushpin({
+    top: $('#menu_projets').offset().top
+  });
+  $('.scrollspy').scrollSpy({
+    scrollOffset: 50
+  });
 });
 
-//$(document).ready(function(id) {
-//    return 'a[href="#' + id + '"]';
+//$(document).ready(function() {
+//  $('.toc-wrapper').pushpin({
+//    offset: 150
+//  });
+//  $('.scrollspy').scrollSpy();
 //});
