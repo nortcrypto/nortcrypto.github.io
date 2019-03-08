@@ -121,6 +121,12 @@ footer.page-footer {
   color: #4ec289;
 }
 
+.card #social_icons i {
+  font-size: 2em;
+  color: #4ec289;
+}
+
+
 #social_icons li:hover i, #social_icons i:hover {
   color: #003046;
 }
@@ -164,4 +170,8 @@ footer.page-footer {
 .tabs .tab a:hover{
   background-color: #003046 !important;
   color: white !important;
+}
+
+.teal.dark-nort {
+  background-color: #003046 !important;
 }
