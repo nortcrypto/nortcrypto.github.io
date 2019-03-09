@@ -212,3 +212,20 @@ a.active {
   background-color: blue;
   height: 10px;
 }*/
+
+
+nav ul a,
+nav .brand-logo {
+  color: #fff;
+}
+
+
+.solid{
+  background-color: rgba(0,0,0,.7) !important;
+}
+
+
+/*.nav-wrapper a{
+  color: #aaa !important;
+} */ 
+
