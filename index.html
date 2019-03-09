@@ -13,26 +13,35 @@
 </head>
 <body>
 
+
+
 <div id="top" class=" section scrollspy" style="padding-top: 0rem;padding-bottom: 0rem;"></div>
 <div class="navbar-fixed">
-  <nav id="menu_projets" class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#top" class="brand-logo"><img style="margin-bottom: -10px;" height="45" width="45" src="images/logo.png">Northern</a>
-      <ul class="right hide-on-med-and-down">
+<nav id="menu_projets" class="white" role="navigation">
+<div class="nav-wrapper container">
+    <a id="logo-container" href="#top" class="brand-logo"><img style="margin-bottom: -10px;" height="45" width="45" src="images/logo.png">Northern</a>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#wallets">Wallets</a></li>
         <li><a href="#spec">Coin information</a></li>
         <li><a href="#developers">Team</a></li>
         <li><a href="#introduction">Introduction</a></li>
-      </ul>
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+    </ul>
 </div>
+</nav>
+</div>
+<ul class="sidenav" id="slide-out">
+        <li><a href="#wallets">Wallets</a></li>
+        <li><a href="#spec">Coin information</a></li>
+        <li><a href="#developers">Team</a></li>
+        <li><a href="#introduction">Introduction</a></li>
+</ul>
+
+
+
+
+
+
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
@@ -468,6 +477,7 @@
   <script src="js/carousel.js"></script>
   <script src="js/scrollspy.js"></script>
   <script src="js/tabs.js"></script>
+  <script src="js/nav.js"></script>
 
   </body>
 </html>
