@@ -221,7 +221,8 @@ nav .brand-logo {
 
 
 .solid{
-  background-color: rgba(0,0,0,.7) !important;
+  background-color: rgba(0,0,0,.8) !important;
+  transition: background-color 1s ease 0s;
 }
 
 
