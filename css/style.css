@@ -213,20 +213,13 @@ a.active {
   height: 10px;
 }*/
 
-
 nav ul a,
 nav .brand-logo {
   color: #fff;
 }
 
-
 .solid{
   background-color: rgba(0,0,0,.8) !important;
   transition: background-color 1s ease 0s;
+  -webkit-transition: background-color 1s ease 0s;
 }
-
-
-/*.nav-wrapper a{
-  color: #aaa !important;
-} */ 
-
