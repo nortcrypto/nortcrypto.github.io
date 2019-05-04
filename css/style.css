@@ -241,3 +241,49 @@ nav .brand-logo {
   transition: background-color 1s ease 0s;
   -webkit-transition: background-color 1s ease 0s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel .indicators .indicator-item {
+
+display: none;
+/*  background-color: rgba(0,0,0,.8) !important;*/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.carousel.carousel-slider .carousel-item p {
+    font-size: 20px !important;
+
+}
