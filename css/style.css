@@ -287,3 +287,12 @@ display: none;
     font-size: 20px !important;
 
 }
+
+
+
+#funding {
+    background: url("../images/ricepaper_v3.png") repeat;
+    margin-top: 150px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
